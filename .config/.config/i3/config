@@ -192,6 +192,7 @@ bindsym $mod+r mode "resize"
 
 # t's section
 
+exec xsetroot -grey
 exec feh --no-fehbg --bg-scale /home/t/base/alright.jpeg
 exec_always --no-startup-id /home/t/.config/polybar/launch.sh
 
