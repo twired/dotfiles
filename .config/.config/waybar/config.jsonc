@@ -1,0 +1,55 @@
+{
+	"layer": "top",
+	"position": "top",
+	"reload_style_on_change": true,
+
+	"height": 30,
+	"margin-top": 10,
+	"margin-right": 10,
+	"margin-bottom": 0,
+	"margin-left": 10,
+	
+	"modules-left": ["clock", "network", "bluetooth"],
+	"modules-center": ["hyprland/workspaces"],
+	"modules-right": ["memory", "cpu", "battery"],
+	
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		"format-icons": {
+			"default": "◇",
+			"active": "◈"
+		},
+		"persistent-workspaces": {
+	      		 "*": 5
+		}
+	},
+
+	"battery": {
+    		"format": "{icon} {capacity}%",
+    		"format-icons": ["", "", "", "", ""],
+    		"max-length": 25
+	},
+	"cpu": {
+		"format": "CPU {usage}%"
+	},
+	"memory": {
+		"format": "RAM {percentage}%"
+	},
+	
+	"clock": {
+		"format": "{:%H:%M}",
+		"tooltip": false
+	},
+	"network": {
+		"format-wifi": "",
+		"format-ethernet": "",
+		"format-disconnected": "",
+		"on-click": "kitty nmtui",
+		"tooltip": false
+	},
+	"bluetooth": {
+		"format": "",
+		"on-click": "kitty bluetoothctl",
+		"tooltip": false
+	}
+}

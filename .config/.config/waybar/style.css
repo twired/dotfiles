@@ -1,0 +1,45 @@
+*{
+	font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+       	font-size: 18px;
+
+	min-height: 0;
+	padding: 0;
+	border: none;
+	border-radius: 0;
+}
+
+window#waybar {
+	background-color: rgba(0,0,0,1);
+
+	border: 1px solid #ffffff;
+	/* border-radius: 20px; */
+}
+
+#workspaces button {;
+	padding: 0 20px;
+	color: rgba(256,256,256,1);
+}
+#workspaces button:hover {
+	background: none;
+	border-radius: 20px;
+}
+
+#clock,
+#battery,
+#bluetooth,
+#cpu,
+#memory,
+#network {
+	padding: 0 20px;
+	color: rgba(256,256,256,1);
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+	background-color: rgba(0,0,0,0);
+
+	/* border: 5px solid #800000; */
+	/* border-radius: 20px; */
+	
+}

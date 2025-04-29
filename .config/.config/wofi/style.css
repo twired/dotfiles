@@ -1,0 +1,48 @@
+window {
+	border: 1px solid #ffffff;
+	background-color: black;
+}
+
+#text {
+	color: white;
+}	
+
+
+#outer-box {
+	margin: 10px;
+	background-color: black;
+}
+
+#input { 
+	margin: 10px;
+	background-color: black;
+	color: white;
+
+	border: 0px solid #ffffff;
+	border-radius: 0;
+
+}
+
+#scroll {
+	margin: 10px;
+	border: 0px solid #ffffff;
+}
+
+#inner-box {
+	margin: 10px;
+	background-color: black;
+}
+
+#entry {
+	margin: 10px;
+	background-color: black;
+}
+
+
+#entry:selected {
+	background-color: white;
+}
+
+#text:selected {
+	color: black;
+}
