@@ -193,7 +193,7 @@ bindsym $mod+r mode "resize"
 # t's section
 
 exec xsetroot -grey
-exec feh --no-fehbg --bg-scale /home/t/base/alright.jpeg
+exec feh --no-fehbg --bg-scale /home/t/base/dotfiles/alright.jpeg
 exec_always --no-startup-id /home/t/.config/polybar/launch.sh
 
 # class                 border  backgr. text    indicator child_border
@@ -208,4 +208,4 @@ client.background       #ffffff
 gaps inner 10px
 gaps outer 0px
 
-bindsym $mod+Shift+w exec feh --recursive --bg-fill --randomize /home/t/base/wallpapers-pc
+bindsym $mod+Shift+w exec feh --no-fehbg --recursive --bg-fill --randomize /home/t/base/wallpapers-pc
