@@ -13,7 +13,7 @@ alias fastfetch='fastfetch -l /home/t/.config/fastfetch/logo.txt'
 
 alias crash='shutdown now'
 alias brb='reboot'
-alias doze='hyprctl dispatch exit'
+alias cya='hyprctl dispatch exit'
 
 
 # XDG
