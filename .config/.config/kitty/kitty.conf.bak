@@ -2688,7 +2688,7 @@
 
 
 # BEGIN_KITTY_FONTS
-font_family      family="JetBrains Mono"
+font_family      family="Anonymous Pro"
 bold_font        auto
 italic_font      auto
 bold_italic_font auto
@@ -2702,6 +2702,6 @@ window_padding_width 10
 background_opacity 0.8
 
 # BEGIN_KITTY_THEME
-# E-Ink Dark
+# Hachiko
 include current-theme.conf
 # END_KITTY_THEME

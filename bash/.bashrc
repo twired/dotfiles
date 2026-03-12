@@ -12,8 +12,8 @@ PS1='[\u@\h \W]\$ '
 alias fastfetch='fastfetch -l /home/t/.config/fastfetch/logo.txt'
 
 alias crash='shutdown now'
-alias brb='reboot'
-alias cya='hyprctl dispatch exit'
+alias round='reboot'
+alias sleep='hyprctl dispatch exit'
 
 
 # XDG
@@ -39,7 +39,10 @@ export WINEPREFIX="$XDG_DATA_HOME"/wine
 
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 export PATH=$PATH:$HOME/.local/
-. "/home/t/.local/share/cargo/env"
+
+# TROUBLE'S NOTE: WHAT IS THIS?
+
+#. "/home/t/.local/share/cargo/env"
 
 
 # >>> conda initialize >>>
